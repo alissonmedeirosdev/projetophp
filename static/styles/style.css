@@ -9,6 +9,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 /* boot css */
 
 .container {
@@ -134,3 +138,116 @@ nav.desktop a {
     font-size: 18px;
     cursor: pointer;
 }
+
+/* description */
+
+.descricao-autor .container, .especialidades .container, .extras .container {
+    padding: 20px 60px;
+    margin: 64px auto 0;
+}
+
+.descricao-autor h2, .container h2.title {
+    margin-bottom: 30px;
+    font-size: 42px;
+    position: relative;
+}
+
+.descricao-autor h2::before, .container h2.title::before {
+    content: "";
+    display: block;
+    position:absolute;
+    border: solid 5px #000000;
+    width: 50px;
+    top: 150%;
+}
+
+.descricao-autor h2 + p{
+    margin-top: 80px;
+}
+
+.descricao-autor p {
+    line-height: 160%;
+}
+
+.descricao-autor .container-image {
+    text-align: center;
+}
+
+.descricao-autor img {
+    display: inline-block;
+    height: 380px;
+}
+
+/* Especialidades */
+
+.especialidades {
+    margin: 60px 0 0px;
+}
+
+.especialidades h2 {
+    margin-bottom: 60px;
+}
+
+.especialidades-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.box-especialidade {
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    border: solid 5px #000000;
+}
+
+.box-especialidade i {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.box-especialidade h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.box-especialidade p {
+    text-align: justify;
+}
+
+/* Depoimentos e Serviçoes */
+
+.depoimentos-wrapper {
+    margin-right: 50px;
+}
+
+.depoimentos-single:nth-child(1), .servicos > ul:nth-child(1) {
+    margin-top: 80px;
+}
+
+.depoimentos-single, .servicos > ul li {
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    padding: 30px;
+}
+
+
+/* media querys */
+
+@media screen and (max-width: 860px) {
+    .w50, .w33 {
+        width: 100%;
+    }
+
+    .especialidades-wrapper {
+        flex-wrap: wrap;
+    }
+}
+

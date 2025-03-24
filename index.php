@@ -61,7 +61,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est adipisci debitis qui nulla odit rem similique, velit, voluptas animi, molestias rerum perferendis quam aliquid quaerat libero dolores corrupti molestiae unde!</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, odio velit? Sint magni autem, praesentium est saepe amet, doloremque at quisquam eius aliquid quasi quas odio ipsam earum officia totam.</p>
             </div>
-            <div class="w50 left">
+            <div class="container-image w50 left">
                  <img src="static/img/avatar-image.png" alt="">
             </div>
             <div class="clear"></div>
@@ -72,29 +72,31 @@
     <section class="especialidades">
         <div class="container">
             <h2 class="title">Especialidades</h2>
-             <div class="box-especialidade w33 left">
-                <i class="fa-brands fa-html5"></i>
-                <h3 class="title">HTML</h3>
-                <p class="box-especialidade-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis odit quia. Qui architecto iusto consectetur optio, facere earum vitae assumenda dolorem. Unde, eaque neque illum consequatur quos libero reprehenderit!
-                </p>
-             </div>
+            <div class="especialidades-wrapper">
+                <div class="box-especialidade w33 left">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3 class="title">HTML</h3>
+                    <p class="box-especialidade-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis odit quia. Qui architecto iusto consectetur optio, facere earum vitae assumenda dolorem. Unde, eaque neque illum consequatur quos libero reprehenderit!
+                    </p>
+                </div>
 
-             <div class="box-especialidade w33 left">
-                <i class="fa-brands fa-css3"></i>
-                <h3 class="title">CSS</h3>
-                <p class="box-especialidade-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis odit quia. Qui architecto iusto consectetur optio, facere earum vitae assumenda dolorem. Unde, eaque neque illum consequatur quos libero reprehenderit!
-                </p>
-             </div>
+                <div class="box-especialidade w33 left">
+                    <i class="fa-brands fa-css3"></i>
+                    <h3 class="title">CSS</h3>
+                    <p class="box-especialidade-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis odit quia. Qui architecto iusto consectetur optio, facere earum vitae assumenda dolorem. Unde, eaque neque illum consequatur quos libero reprehenderit!
+                    </p>
+                </div>
 
-             <div class="box-especialidade w33 left">
-                <i class="fa-brands fa-js"></i>
-                <h3 class="title">JAVASCRIPT</h3>
-                <p class="box-especialidade-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis odit quia. Qui architecto iusto consectetur optio, facere earum vitae assumenda dolorem. Unde, eaque neque illum consequatur quos libero reprehenderit!
-                </p>
-             </div>
+                <div class="box-especialidade w33 left">
+                    <i class="fa-brands fa-js"></i>
+                    <h3 class="title">JAVASCRIPT</h3>
+                    <p class="box-especialidade-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis odit quia. Qui architecto iusto consectetur optio, facere earum vitae assumenda dolorem. Unde, eaque neque illum consequatur quos libero reprehenderit!
+                    </p>
+                </div>
+            </div>
             <div class="clear"></div>
         </div>
     </section>
@@ -104,22 +106,25 @@
         <div class="container">
             <div class="w50 left">
                 <h2 class="title">Depoimentos</h2>
-                <div class="depoimentos-single">
-                    <p class="depoimentos-descicao">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur atque perferendis quo nesciunt provident, nostrum voluptatibus maiores at doloremque illum dolorem error delectus ipsum repellat tenetur natus modi libero.
-                    </p>
-                </div>
-            
-                <div class="depoimentos-single">
-                    <p class="depoimentos-descicao">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur atque perferendis quo nesciunt provident, nostrum voluptatibus maiores at doloremque illum dolorem error delectus ipsum repellat tenetur natus modi libero.
-                    </p>
-                </div>
 
-                <div class="depoimentos-single">
-                    <p class="depoimentos-descicao">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur atque perferendis quo nesciunt provident, nostrum voluptatibus maiores at doloremque illum dolorem error delectus ipsum repellat tenetur natus modi libero.
-                    </p>
+                <div class="depoimentos-wrapper">
+                    <div class="depoimentos-single">
+                        <p class="depoimentos-descicao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur atque perferendis quo nesciunt provident, nostrum voluptatibus maiores at doloremque illum dolorem error delectus ipsum repellat tenetur natus modi libero.
+                        </p>
+                    </div>
+                
+                    <div class="depoimentos-single">
+                        <p class="depoimentos-descicao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur atque perferendis quo nesciunt provident, nostrum voluptatibus maiores at doloremque illum dolorem error delectus ipsum repellat tenetur natus modi libero.
+                        </p>
+                    </div>
+
+                    <div class="depoimentos-single">
+                        <p class="depoimentos-descicao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur atque perferendis quo nesciunt provident, nostrum voluptatibus maiores at doloremque illum dolorem error delectus ipsum repellat tenetur natus modi libero.
+                        </p>
+                    </div>
                 </div>
             </div>
 
